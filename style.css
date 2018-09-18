@@ -1,0 +1,29 @@
+body { 
+    background: url(https://images.pexels.com/photos/735651/pexels-photo-735651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: rgba(150, 150, 50, 0.87);
+  }
+  
+  h1 {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  p {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .btn {
+    border-color: black;
+    background-color: rgba(0,0,0, 0.5);
+    color: purple;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    min-width: 150px;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
